@@ -92,7 +92,7 @@ function currencyConverter(number) {
   return number;
 }
 
-function progressAnimation() {}
+// function progressAnimation() {}
 
 // Topics Covered
 // JavaScript
