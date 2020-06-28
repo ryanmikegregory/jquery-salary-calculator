@@ -1,28 +1,7 @@
+/*Resets*/
+
 body, html {
     background-color: #f8f8ff;
-}
-
-.redBackground {
-    background-color: #ff0000;
-}
-
-.h1Jumbo {
-    font-size: 60px;
-}
-
-.jumbotron {
-    padding: 20px;
-}
-
-.table-margin {
-    margin-top: 20px;
-    width: 700px;
-}
-
-.js-tr-style {
-    text-indent: .5rem;
-    line-height: 10px;
-    font-size: small;
 }
 
 tbody>tr:hover {
@@ -31,6 +10,57 @@ tbody>tr:hover {
 
 tbody>tr:nth-child(odd):hover {
     background: aquamarine;
+}
+
+/*IDs*/
+
+#deleteBtnTHead {
+    width: 30px;
+}
+
+#firstNameTHead {
+    width: 110px;
+}
+
+#h3-total-month {
+    margin-bottom: 20px;
+}
+
+#lastNameTHead {
+    width: 150px;
+}
+
+#salTHead {
+    width: 150px;
+}
+
+#titleTHead {
+    width: 140px;
+}
+
+/*classes*/
+
+.container-all {
+    align-items: center;
+    width: 750px;
+}
+
+.css-btn {
+    margin-top: 10px;
+}
+
+.h1Jumbo {
+    font-size: 60px;
+}
+
+.js-tr-style {
+    text-indent: .5rem;
+    line-height: 10px;
+    font-size: small;
+}
+
+.jumbotron {
+    padding: 20px;
 }
 
 .panel {
@@ -46,43 +76,15 @@ tbody>tr:nth-child(odd):hover {
     border: solid 1px #000;
 }
 
-.css-btn {
-    margin-top: 10px;
-}
-
-#h3-total-month {
-    margin-bottom: 20px;
+.redBackground {
+    background-color: #ff0000;
 }
 
 .table-head-css {
     padding: 10px;
 }
 
-#firstNameTHead {
-    width: 110px;
-}
-
-#lastNameTHead {
-    width: 150px;
-}
-
-#lastNameHTHead {
-    width: 50px;
-}
-
-#titleTHead {
-    width: 140px;
-}
-
-#salTHead {
-    width: 150px;
-}
-
-#deleteBtnTHead {
-    width: 30px;
-}
-
-.container-all {
-    align-items: center;
-    width: 750px;
+.table-margin {
+    margin-top: 20px;
+    width: 700px;
 }
