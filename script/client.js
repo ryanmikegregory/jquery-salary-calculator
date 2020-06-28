@@ -7,6 +7,7 @@ function init() {
   $('#js-form-employee-fields').on('submit', addEmployee);
   $('#js-form-employee-fields').on('submit', renderTable);
   $('#js-table-body').on('click', '#js-delete-btn', deleteEmployeeRecord);
+  //   $('#js-form-employee-fields').on('submit', progressAnimation);
 }
 
 function addEmployee(event) {
@@ -90,6 +91,8 @@ function currencyConverter(number) {
   number = formatter.format(number);
   return number;
 }
+
+function progressAnimation() {}
 
 // Topics Covered
 // JavaScript
