@@ -25,6 +25,14 @@ body, html {
     font-size: small;
 }
 
+tbody>tr:hover {
+    background: aquamarine;
+}
+
+tbody>tr:nth-child(odd):hover {
+    background: aquamarine;
+}
+
 .panel {
     margin: 0 auto;
     padding: 20px;
